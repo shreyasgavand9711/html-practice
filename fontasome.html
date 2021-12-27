@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background {
+            background-image: url("ches.jpg");
+            color: white;
+
+        }
+
+        .grid-contenor {
+            display: grid;
+            grid-template-columns: 2fr 7fr;
+            grid-auto-rows: 20px;
+            grid-column-gap: 10px;
+
+
+        }
+
+        .headleft {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 2fr;
+        }
+
+        .icon {
+            background-color: white;
+            border-radius: 15px;
+            height: 30px;
+            width: 200px;
+        }
+
+        .left {
+
+            gap: 15px;
+
+            .logo:hover {
+                background-color: rgb(228, 222, 222);
+            }
+    </style>
+</head>
+
+<body class="background">
+    <div class="grid-contenor">
+        <div class="left">
+            <div class="headleft">
+                <span><i class="fas fa-bars"></i></span>
+                <span>M</span>
+                <span>Gmail</span>
+            </div>
+            <div class="icon">
+                <span><i class="fas fa-plus"></i></span>
+                <span>Compose</span>
+            </div>
+            <div class="logo">
+                <div>
+                    <span><i class="far fa-inbox"></i></span>
+                    <span>inbox</span>
+                </div>
+                <div>
+                    <div><i class="far fa-inbox"></i></div>
+                    <div>starred</div>
+                </div>
+                <div>
+                    <div><i class="fas fa-clock"></i></div>
+                    <div>snoozed</div>
+                </div>
+                <div>
+                    <div><i class="fas fa-chevron-double-right"></i></div>
+                    <div>Important</div>
+                </div>
+                <div>
+                    <div><i class="fad fa-arrow-alt-right"></i></div>
+                    <div>Sent</div>
+                </div>
+                <div>
+                    <div><i class="fas fa-file"></i></div>
+                    <div>Darafts</div>
+                </div>
+            </div>
+            <div><input type="search mail"></div>
+
+
+        </div>
+
+</body>
+
+</html>

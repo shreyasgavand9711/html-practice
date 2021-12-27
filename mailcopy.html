@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .background {
+
+            background-image: url("ches.jpg");
+            background-size: cover;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            /* border-bottom: white 1px solid; */
+            display: grid;
+            height: 40px;
+            grid-template-columns: 300px 1fr;
+        }
+
+        .header-left {
+            display: grid;
+            grid-template-columns: 1fr 1fr 3fr;
+        }
+
+        .header-right {
+            display: grid;
+            grid-template-columns: 63fr 37fr;
+        }
+
+        .searchbar {
+            background-color: rgba(128, 128, 128, 0.26);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .search-in-1 {
+            display: inline-block;
+            float: left;
+        }
+
+        .search-in-2 {
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+        .search-in-3 {
+            display: inline-block;
+            float: right;
+        }
+
+        /* .header-icon {
+            float: right;
+            padding: 10px;
+        } */
+
+        .header-icon-1 {
+            display: inline-block;
+            float: right;
+            padding: 10px;
+        }
+
+        .header-icon-2 {
+            display: inline-block;
+            float: right;
+            padding: 10px;
+        }
+
+        .header-icon-3 {
+            display: inline-block;
+            float: right;
+            padding: 10px;
+        }
+
+        .micon {
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        .body {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+
+        }
+
+        .sidebar {
+            /* display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 50px repeat(6, 20px); */
+            height: 150px;
+        }
+
+        .icon:hover {
+            background-color: rgba(255, 255, 255, 0.342);
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 54%), 0 6px 20px 0 rgb(0 0 0);
+
+        }
+
+        .icon-body {
+            height: 250px;
+            overflow-y: scroll;
+        }
+
+        .icon-1 {
+            display: inline-block;
+            padding-left: 20px;
+            padding: 15px;
+        }
+
+        .icon-2 {
+            display: inline-block;
+            padding-left: 20px;
+            padding: 15px;
+
+        }
+
+        .top {
+            height: 40px;
+        }
+
+        .top-left {
+            float: left;
+            padding: 10px;
+        }
+
+        .top-icon {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .top-right {
+            float: right;
+        }
+
+        .top-icon:hover {
+            background-color: rgba(255, 255, 255, 0.247);
+            border-radius: 50%;
+        }
+
+        .botam {
+            background-color: white;
+            color: black;
+
+
+        }
+
+        .primary-contenor {
+            height: 50px;
+        }
+
+        .primary {
+            color: red;
+            border-bottom: red 3px solid;
+            padding: 20px;
+            width: 300PX;
+            display: inline-block;
+            float: left;
+        }
+
+        .social {
+            display: inline-block;
+        }
+
+        .new {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="background">
+    <div class="header">
+        <div class="header-left">
+            <div class="micon"><i class="fas fa-bars"></i></div>
+            <div class="micon"><img src="Micom.png" hight="20px" width="20px"></div>
+            <div class="micon">Gmail</div>
+        </div>
+        <div class="header-right">
+            <div class="searchbar">
+                <div class="search-in-1"><i class="far fa-search"></i></div>
+                <div class="search-in-2">Search mail</div>
+                <div class="search-in-3"><i class="fas fa-sliders-h"></i></div>
+            </div>
+            <div class="header-icon">
+                <div class="header-icon-3"><i class="fas fa-border-none"></i></div>
+                <div class="header-icon-2"><i class="fas fa-cog"></i></div>
+                <div class="header-icon-1"><i class="far fa-question-circle"></i></div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="body">
+        <div class="sidebar">
+            <div><img src="compose.png" height="40px" width="150px"> </div>
+            <div class="icon-body">
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-inbox"></i></div>
+                    <div class="icon-2"> Inbox</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-star"></i></div>
+                    <div class="icon-2">Starred</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-clock"></i></div>
+                    <div class="icon-2">Snoozed</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-angle-double-right"></i></div>
+                    <div class="icon-2">Important</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-paper-plane"></i></div>
+                    <div class="icon-2">Sent</div>
+                </div>
+                <div class="icon">
+                    <div class="icon-1"><i class="fas fa-file-image"></i></div>
+                    <div class="icon-2">Drafts</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="top-left">
+                    <div class="top-icon"><i class="far fa-square"></i><i class="fas fa-caret-down"></i></div>
+                    <div class="top-icon"><i class="fas fa-redo"></i></div>
+                    <div class="top-icon"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+                <div class="top-right">
+                    <div class="top-icon">1-50 of 8,600</div>
+                    <div class="top-icon">
+                        <>
+                    </div>
+                </div>
+            </div>
+            <div class="botam">
+                <div class=".primary-contenor">
+                    <div class="primary"><span><i class="fas fa-inbox"></i></span>
+                        <span>primary</span>
+                    </div>
+                    <div class="social"><i class="fas fa-user-alt"></i>
+                        <div><span>Social</span><span class="new">2 new</span></div>
+
+                    </div>
+                    <div></div>
+                </div>
+                <div class="second">
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
